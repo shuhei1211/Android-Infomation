@@ -39,7 +39,7 @@ Android Image Size
 |0.5倍|0.75倍|1倍|1.5倍|
 　　
 参考URL
-> [Android Design Pattern](http://android-design.teamegg.co.jp/)
->[Android Dashboards](http://developer.android.com/about/dashboards/index.html)
->[Androidアプリーリソース画像サイズ＆種類ー](http://spdesign.exblog.jp/19798730/)
->[Androidの解像度の違いを考慮したデザイン基礎知識](http://sousaku-memo.net/php-system/689)
+> [Android Design Pattern](http://android-design.teamegg.co.jp/)<br>
+>[Android Dashboards](http://developer.android.com/about/dashboards/index.html)<br>
+>[Androidアプリーリソース画像サイズ＆種類ー](http://spdesign.exblog.jp/19798730/)<br>
+>[Androidの解像度の違いを考慮したデザイン基礎知識](http://sousaku-memo.net/php-system/689)<br>
