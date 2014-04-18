@@ -1,21 +1,19 @@
-Android Design
+####Androidにおける単位について  
 
-####Androidにおける単位について
+**(Pixels) px**   
+実際の画面上のPixelがそのままの単位になります。  
+たとえば、480px X 800pxの画面であれば、  
+1pxは画面の1/480という事になります。  
 
-**(Pixels) px** 
-実際の画面上のPixelがそのままの単位になります。
-たとえば、480px X 800pxの画面であれば、
-1pxは画面の1/480という事になります。
+**(Density-independent Piexels) dp**   
+ディスプレイ解像度の物理的な密度に応じた抽象単位になります。  
+160dpi(dots per inch)を基準にした単位で、1dpは160dpiの画面で1pixelになります。  
+dpとpixelの比率は画面密度(dpi)によって変化しますが、必ずしも正比例ではありません。  
 
-**(Density-independent Piexels) dp** 
-ディスプレイ解像度の物理的な密度に応じた抽象単位になります。
-160dpi(dots per inch)を基準にした単位で、1dpは160dpiの画面で1pixelになります。
-dpとpixelの比率は画面密度(dpi)によって変化しますが、必ずしも正比例ではありません。
+**(Scale-independent Pixels) sp**   
+画面上のサイズはユーザのフォントサイズ設定に準じます。  
 
-**(Scale-independent Pixels) sp** 
-画面上のサイズはユーザのフォントサイズ設定に準じます。
-
-##アイコン大きさ一覧
+##アイコン大きさ一覧  
 
 |アイコン| mdpi | hdpi | xhdpi | xxhdpi |
 |:--|:-:|:-:|:-:|:-:|
@@ -27,7 +25,7 @@ dpとpixelの比率は画面密度(dpi)によって変化しますが、必ず�
 |リストビュー|32 x 32<br>24 x 24|48 x 48<br>36 x 36|64 x 64<br>48 x 48|96 x 96<br>72 x 72|
 |通知|24 x 24<br>22 x 22|36 x 36<br>33 x 33|48 x 48<br>44 x 44|72 x 72<br>66 x 66|
 
-##素材つくり
+##素材つくり  
 
 |mdpi|hdpi|xhdpi|xxhdpi|
 |:-:|:-:|:-:|:-:|
@@ -35,13 +33,13 @@ dpとpixelの比率は画面密度(dpi)によって変化しますが、必ず�
 
 ##デザインパターン
 **基本的な高さは48dpを使用する**  
-![metrics_48.png](https://qiita-image-store.s3.amazonaws.com/0/38558/506b1111-f295-5258-e922-75315563fde2.png "metrics_48.png")
+![metrics_48.png](https://qiita-image-store.s3.amazonaws.com/0/38558/506b1111-f295-5258-e922-75315563fde2.png "metrics_48.png")  
 
-**ViewとViewの間は8dp 隙間は4dpを指定する**
-![metrics_closeup.png](https://qiita-image-store.s3.amazonaws.com/0/38558/d70230bd-e809-40c7-126b-145cb1226f33.png "metrics_closeup.png")
+**ViewとViewの間は8dp 隙間は4dpを指定する**  
+![metrics_closeup.png](https://qiita-image-store.s3.amazonaws.com/0/38558/d70230bd-e809-40c7-126b-145cb1226f33.png "metrics_closeup.png")  
 
 
-![metrics_forms.png](https://qiita-image-store.s3.amazonaws.com/0/38558/4f9514f3-2232-21b5-f015-c407ea99b58a.png "metrics_forms.png")
+![metrics_forms.png](https://qiita-image-store.s3.amazonaws.com/0/38558/4f9514f3-2232-21b5-f015-c407ea99b58a.png "metrics_forms.png")  
 
 ###ActionBarの高さ       
 |Qualifier|Dimension|
@@ -59,8 +57,9 @@ dpとpixelの比率は画面密度(dpi)によって変化しますが、必ず�
 |Large|22sp|
 
 ##画像の名前
-**a-z,0-9,_**　のみしか使用できません。画像作成者は基本的にこの名前を使用して下さい。
-9patch画像は画像の名前の後に **.9** を付けてください。
+**a-z,0-9,_**　のみしか使用できません。  
+画像作成者は基本的にこの名前を使用して下さい。  
+9patch画像は画像の名前の後に **.9** を付けてください。  
 
 ###一般的な画像
 
@@ -98,14 +97,14 @@ dpとpixelの比率は画面密度(dpi)によって変化しますが、必ず�
 ##参考リンク
 ###Graphic Generators
 >
-[Android Asset Resizer](https://github.com/twaddington/android-asset-resizer)
-[Android Asset Studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)
-[Android Button Maker](http://angrytools.com/android/button/)
-[Android Holo Colors IntelliJ Plugin](https://github.com/jeromevdl/android-holo-colors-idea-plugin)
-[Device Art Generator](http://developer.android.com/distribute/promote/device-art.html)
-[Google Play Badges](http://developer.android.com/distribute/googleplay/promote/badges.html)
+[Android Asset Resizer](https://github.com/twaddington/android-asset-resizer)  
+[Android Asset Studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)  
+[Android Button Maker](http://angrytools.com/android/button/)  
+[Android Holo Colors IntelliJ Plugin](https://github.com/jeromevdl/android-holo-colors-idea-plugin)  
+[Device Art Generator](http://developer.android.com/distribute/promote/device-art.html)  
+[Google Play Badges](http://developer.android.com/distribute/googleplay/promote/badges.html)  
 
-[参考URL](http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/)
-Thanks for Petr Nohejl.
-Copyright © 2013 Petr Nohejl, www.petrnohejl.cz
+[参考URL](http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/)  
+Thanks for Petr Nohejl.  
+Copyright © 2013 Petr Nohejl, www.petrnohejl.cz  
 
