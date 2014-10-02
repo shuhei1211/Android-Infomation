@@ -103,6 +103,7 @@ dpとpixelの比率は画面密度(dpi)によって変化しますが、必ず�
 [Android Holo Colors IntelliJ Plugin](https://github.com/jeromevdl/android-holo-colors-idea-plugin)  
 [Device Art Generator](http://developer.android.com/distribute/promote/device-art.html)  
 [Google Play Badges](http://developer.android.com/distribute/googleplay/promote/badges.html)  
+[Android DesignPattern](http://android-design.teamegg.co.jp/)
 
 [参考URL](http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/)  
 Thanks for Petr Nohejl.  
