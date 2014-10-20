@@ -28,3 +28,7 @@
 > 
 
 
+http://y-anz-m.blogspot.jp/search/label/volley
+http://www.adamrocker.com/blog/341/volley-easy-fast-networking-for-android.html
+http://www.adamrocker.com/blog/335/simple-side-drawer.html
+http://www.adamrocker.com/blog/291/how-to-animate-the-android-dialog.html
