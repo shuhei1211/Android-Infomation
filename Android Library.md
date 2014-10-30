@@ -34,3 +34,6 @@ http://www.adamrocker.com/blog/335/simple-side-drawer.html<br>
 http://www.adamrocker.com/blog/291/how-to-animate-the-android-dialog.html<br>
 
 http://y-anz-m.blogspot.jp/search?q=android+style<br>
+
+android sdk viewで覆う
+http://kumacoro.blogspot.jp/2012/11/android-sdk-imageview.html
